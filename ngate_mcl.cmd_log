@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "C:/Users/user/Quantunm/ngate_mcl.xst" -ofn "C:/Users/user/Quantunm/ngate_mcl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 ngate_mcl.ngc ngate_mcl.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o ngate_mcl_map.ncd ngate_mcl.ngd ngate_mcl.pcf 
+par -w -intstyle ise -ol high -t 1 ngate_mcl_map.ncd ngate_mcl.ncd ngate_mcl.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ngate_mcl.twx ngate_mcl.ncd -o ngate_mcl.twr ngate_mcl.pcf 
+xst -intstyle ise -ifn "C:/Users/user/Quantunm/ngate_mcl.xst" -ofn "C:/Users/user/Quantunm/ngate_mcl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 ngate_mcl.ngc ngate_mcl.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o ngate_mcl_map.ncd ngate_mcl.ngd ngate_mcl.pcf 
+par -w -intstyle ise -ol high -t 1 ngate_mcl_map.ncd ngate_mcl.ncd ngate_mcl.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ngate_mcl.twx ngate_mcl.ncd -o ngate_mcl.twr ngate_mcl.pcf 

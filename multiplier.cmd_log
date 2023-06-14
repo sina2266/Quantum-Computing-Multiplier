@@ -1,0 +1,29 @@
+xst -intstyle ise -ifn "C:/Users/user/Quantunm/multiplier.xst" -ofn "C:/Users/user/Quantunm/multiplier.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Quantunm/multiplier.xst" -ofn "C:/Users/user/Quantunm/multiplier.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 multiplier.ngc multiplier.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o multiplier_map.ncd multiplier.ngd multiplier.pcf 
+xst -intstyle ise -ifn "C:/Users/user/Quantunm/multiplier.xst" -ofn "C:/Users/user/Quantunm/multiplier.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 multiplier.ngc multiplier.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o multiplier_map.ncd multiplier.ngd multiplier.pcf 
+par -w -intstyle ise -ol high -t 1 multiplier_map.ncd multiplier.ncd multiplier.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml multiplier.twx multiplier.ncd -o multiplier.twr multiplier.pcf 
+xst -intstyle ise -ifn "C:/Users/user/Quantunm/multiplier.xst" -ofn "C:/Users/user/Quantunm/multiplier.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 multiplier.ngc multiplier.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o multiplier_map.ncd multiplier.ngd multiplier.pcf 
+par -w -intstyle ise -ol high -t 1 multiplier_map.ncd multiplier.ncd multiplier.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml multiplier.twx multiplier.ncd -o multiplier.twr multiplier.pcf 
+xst -intstyle ise -ifn "C:/Users/Sina/Desktop/Quantunm/multiplier.xst" -ofn "C:/Users/Sina/Desktop/Quantunm/multiplier.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 multiplier.ngc multiplier.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o multiplier_map.ncd multiplier.ngd multiplier.pcf 
+par -w -intstyle ise -ol high -t 1 multiplier_map.ncd multiplier.ncd multiplier.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml multiplier.twx multiplier.ncd -o multiplier.twr multiplier.pcf 
+xst -intstyle ise -ifn "C:/Users/Sina/Desktop/Quantunm/multiplier.xst" -ofn "C:/Users/Sina/Desktop/Quantunm/multiplier.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 multiplier.ngc multiplier.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o multiplier_map.ncd multiplier.ngd multiplier.pcf 
+par -w -intstyle ise -ol high -t 1 multiplier_map.ncd multiplier.ncd multiplier.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml multiplier.twx multiplier.ncd -o multiplier.twr multiplier.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multiplier.ucf -p xc3s700a-fg484-4 multiplier.ngc multiplier.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o multiplier_map.ncd multiplier.ngd multiplier.pcf 
+par -w -intstyle ise -ol high -t 1 multiplier_map.ncd multiplier.ncd multiplier.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml multiplier.twx multiplier.ncd -o multiplier.twr multiplier.pcf -ucf multiplier.ucf 
+bitgen -intstyle ise -f multiplier.ut multiplier.ncd 

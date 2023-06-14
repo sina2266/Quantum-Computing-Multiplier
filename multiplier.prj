@@ -1,0 +1,4 @@
+vhdl work "peres_gate.vhd"
+vhdl work "gate_hng.vhd"
+vhdl work "gate_bme.vhd"
+vhdl work "multiplier.vhd"

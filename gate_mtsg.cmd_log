@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/user/Quantunm/gate_mtsg.xst" -ofn "C:/Users/user/Quantunm/gate_mtsg.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Quantunm/gate_mtsg.xst" -ofn "C:/Users/user/Quantunm/gate_mtsg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 gate_mtsg.ngc gate_mtsg.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o gate_mtsg_map.ncd gate_mtsg.ngd gate_mtsg.pcf 
+par -w -intstyle ise -ol high -t 1 gate_mtsg_map.ncd gate_mtsg.ncd gate_mtsg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml gate_mtsg.twx gate_mtsg.ncd -o gate_mtsg.twr gate_mtsg.pcf 

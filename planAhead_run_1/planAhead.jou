@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Oct 10 23:16:45 2022
+# Process ID: 4140
+# Log file: C:/Users/Sina/Desktop/Quantunm/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Sina/Desktop/Quantunm/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/Sina/Desktop/Quantunm/pa.fromNetlist.tcl

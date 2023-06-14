@@ -1,0 +1,59 @@
+ISim log file
+Running: C:\Users\Sina\Desktop\Quantunm\multiplier_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Sina/Desktop/Quantunm/multiplier_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /multiplier/a[3] 0 -radix bin
+# run 1.00us
+# run all
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /multiplier/a 0010 -radix bin
+# isim force remove /multiplier/a
+# isim force add /multiplier/b 0000 -radix bin
+# isim force add /multiplier/b 0000 -radix bin
+# run 1.00us
+# isim force add /multiplier/a 0001 -radix bin
+# isim force add /multiplier/a 0001 -radix bin
+# run 1.00us
+# isim force add /multiplier/b 0001 -radix bin
+# isim force add /multiplier/b 0001 -radix bin
+# run 1.00us
+# isim force add /multiplier/a 0100 -radix bin
+# run 1.00us
+# isim force add /multiplier/a 0100 -radix bin
+# isim force add /multiplier/b 0111 -radix bin
+# run 1.00us
+# isim force add /multiplier/a 1111 -radix bin
+# isim force add /multiplier/a 1111 -radix bin
+# isim force add /multiplier/b 1111 -radix bin
+# run 1.00us
+# isim force add /multiplier/a 1011 -radix bin
+# isim force add /multiplier/a 1011 -radix bin
+# isim force add /multiplier/b 0111 -radix bin
+# isim force add /multiplier/b 0111 -radix bin
+# run 1.00us
+# isim force add /multiplier/b 1011 -radix bin
+# isim force add /multiplier/a 0111 -radix bin
+# run 1.00us
+# run 1.00us
+# isim force add /multiplier/a 0101 -radix bin
+# isim force add /multiplier/a 0101 -radix bin
+# isim force add /multiplier/b 0100 -radix bin
+# isim force add /multiplier/b 0100 -radix bin
+# run 1.00us
+# isim force add /multiplier/a 0111 -radix bin
+# isim force add /multiplier/a 0111 -radix bin
+# isim force add /multiplier/b 0100 -radix bin
+# run 1.00us
+# isim force add /multiplier/b 0110 -radix bin
+# isim force add /multiplier/b 0110 -radix bin
+# run 1.00us

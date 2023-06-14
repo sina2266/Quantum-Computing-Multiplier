@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Quantunm.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="gate_mkg.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="gate_mkg.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="gate_mkg.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="gate_mkg.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="gate_mkg.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="gate_mkg.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="gate_mkg.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="gate_mkg.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="gate_mkg.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="gate_mkg.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="gate_mkg.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="gate_mkg.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="gate_mkg.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="gate_mkg.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="gate_mkg.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="gate_mkg.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="gate_mkg.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="gate_mkg.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="gate_mkg.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="gate_mkg_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="gate_mkg_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="gate_mkg_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="gate_mkg_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="gate_mkg_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="gate_mkg_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="gate_mkg_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="gate_mkg_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="gate_mkg_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="gate_mkg_par.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="gate_mkg_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="gate_mkg_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="gate_mkg_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="gate_mkg_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="gate_mtsg.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="gate_mtsg.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="gate_mtsg.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="gate_mtsg.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="gate_mtsg.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="gate_mtsg.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="gate_mtsg.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="gate_mtsg.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="gate_mtsg.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="gate_mtsg.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="gate_mtsg.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="gate_mtsg.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="gate_mtsg.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="gate_mtsg.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="gate_mtsg.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="gate_mtsg.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="gate_mtsg.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="gate_mtsg.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="gate_mtsg.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="gate_mtsg_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="gate_mtsg_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="gate_mtsg_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="gate_mtsg_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="gate_mtsg_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="gate_mtsg_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="gate_mtsg_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="gate_mtsg_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="gate_mtsg_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="gate_mtsg_par.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="gate_mtsg_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="gate_mtsg_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="gate_mtsg_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="gate_mtsg_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="multiplier.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="multiplier.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="multiplier.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="multiplier.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="multiplier.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="multiplier.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="multiplier.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="multiplier.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="multiplier.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="multiplier.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="multiplier.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="multiplier.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="multiplier.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multiplier.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="multiplier.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="multiplier.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="multiplier.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="multiplier.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="multiplier.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="multiplier.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="multiplier.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="multiplier.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="multiplier.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multiplier_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="multiplier_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="multiplier_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="multiplier_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="multiplier_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="multiplier_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="multiplier_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="multiplier_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="multiplier_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="multiplier_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="multiplier_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="multiplier_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="multiplier_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="multiplier_par.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multiplier_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="multiplier_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="multiplier_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="multiplier_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multiplier_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="multiplier_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="ngate_mcl.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="ngate_mcl.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="ngate_mcl.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="ngate_mcl.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="ngate_mcl.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="ngate_mcl.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="ngate_mcl.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="ngate_mcl.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="ngate_mcl.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ngate_mcl.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="ngate_mcl.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="ngate_mcl.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="ngate_mcl.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="ngate_mcl.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="ngate_mcl.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ngate_mcl.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ngate_mcl_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="ngate_mcl_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="ngate_mcl_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="ngate_mcl_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="ngate_mcl_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="ngate_mcl_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="ngate_mcl_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="ngate_mcl_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ngate_mcl_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ngate_mcl_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ngate_mcl_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="ngate_tsg.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="ngate_tsg.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="ngate_tsg.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="ngate_tsg.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="ngate_tsg.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="ngate_tsg.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="ngate_tsg.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="ngate_tsg.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="ngate_tsg.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ngate_tsg.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="ngate_tsg.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="ngate_tsg.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="ngate_tsg.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="ngate_tsg.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="ngate_tsg.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ngate_tsg.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ngate_tsg_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="ngate_tsg_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="ngate_tsg_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="ngate_tsg_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="ngate_tsg_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="ngate_tsg_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="ngate_tsg_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="ngate_tsg_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ngate_tsg_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ngate_tsg_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ngate_tsg_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1665433437" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1665433436">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1665433437" xil_pn:in_ck="2256206635028485015" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1665433437">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="bjn_gate.vhd"/>
+      <outfile xil_pn:name="double_feynman_gate.vhd"/>
+      <outfile xil_pn:name="feynman_gate.vhd"/>
+      <outfile xil_pn:name="fredkin_gate.vhd"/>
+      <outfile xil_pn:name="gate_bme.vhd"/>
+      <outfile xil_pn:name="gate_hng.vhd"/>
+      <outfile xil_pn:name="gate_mkg.vhd"/>
+      <outfile xil_pn:name="gate_mtsg.vhd"/>
+      <outfile xil_pn:name="multiplier.vhd"/>
+      <outfile xil_pn:name="nft_gate.vhd"/>
+      <outfile xil_pn:name="ng_gate.vhd"/>
+      <outfile xil_pn:name="ngat_urg.vhd"/>
+      <outfile xil_pn:name="ngate_mcl.vhd"/>
+      <outfile xil_pn:name="ngate_tks.vhd"/>
+      <outfile xil_pn:name="ngate_tsg.vhd"/>
+      <outfile xil_pn:name="peres_gate.vhd"/>
+      <outfile xil_pn:name="toffoli_gate.vhd"/>
+      <outfile xil_pn:name="tr_gate.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1665433443" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-7852179717264016076" xil_pn:start_ts="1665433443">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1665433443" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="8257695489473366332" xil_pn:start_ts="1665433443">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1665433443" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-4022516356006851423" xil_pn:start_ts="1665433443">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1665433443" xil_pn:in_ck="2256206635028485015" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1665433443">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="bjn_gate.vhd"/>
+      <outfile xil_pn:name="double_feynman_gate.vhd"/>
+      <outfile xil_pn:name="feynman_gate.vhd"/>
+      <outfile xil_pn:name="fredkin_gate.vhd"/>
+      <outfile xil_pn:name="gate_bme.vhd"/>
+      <outfile xil_pn:name="gate_hng.vhd"/>
+      <outfile xil_pn:name="gate_mkg.vhd"/>
+      <outfile xil_pn:name="gate_mtsg.vhd"/>
+      <outfile xil_pn:name="multiplier.vhd"/>
+      <outfile xil_pn:name="nft_gate.vhd"/>
+      <outfile xil_pn:name="ng_gate.vhd"/>
+      <outfile xil_pn:name="ngat_urg.vhd"/>
+      <outfile xil_pn:name="ngate_mcl.vhd"/>
+      <outfile xil_pn:name="ngate_tks.vhd"/>
+      <outfile xil_pn:name="ngate_tsg.vhd"/>
+      <outfile xil_pn:name="peres_gate.vhd"/>
+      <outfile xil_pn:name="toffoli_gate.vhd"/>
+      <outfile xil_pn:name="tr_gate.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1665433446" xil_pn:in_ck="2256206635028485015" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-1905716825045615793" xil_pn:start_ts="1665433443">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="multiplier_beh.prj"/>
+      <outfile xil_pn:name="multiplier_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1665433447" xil_pn:in_ck="-8266231812064004650" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3069516907191714162" xil_pn:start_ts="1665433446">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="multiplier_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1642344092" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1642344092">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1644611682" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-5606684449814525092" xil_pn:start_ts="1644611682">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1644611682" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-4022516356006851423" xil_pn:start_ts="1644611682">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1644611682" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1644611682">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1644611682" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-7852179717264016076" xil_pn:start_ts="1644611682">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1644611682" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="4579864356909105523" xil_pn:start_ts="1644611682">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1644611682" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="7018498957828299115" xil_pn:start_ts="1644611682">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1665431145" xil_pn:in_ck="2256206635028485015" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="5609763818489969694" xil_pn:start_ts="1665431138">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="multiplier.lso"/>
+      <outfile xil_pn:name="multiplier.ngc"/>
+      <outfile xil_pn:name="multiplier.ngr"/>
+      <outfile xil_pn:name="multiplier.prj"/>
+      <outfile xil_pn:name="multiplier.stx"/>
+      <outfile xil_pn:name="multiplier.syr"/>
+      <outfile xil_pn:name="multiplier.xst"/>
+      <outfile xil_pn:name="multiplier_vhdl.prj"/>
+      <outfile xil_pn:name="multiplier_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1665431335" xil_pn:in_ck="2076895900863054387" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="369255222436825055" xil_pn:start_ts="1665431335">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1665431339" xil_pn:in_ck="5649297215744563416" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-3175555107746296434" xil_pn:start_ts="1665431335">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="multiplier.bld"/>
+      <outfile xil_pn:name="multiplier.ngd"/>
+      <outfile xil_pn:name="multiplier_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1665431343" xil_pn:in_ck="-5765182662667747683" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-5706167834589782188" xil_pn:start_ts="1665431339">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="multiplier.pcf"/>
+      <outfile xil_pn:name="multiplier_map.map"/>
+      <outfile xil_pn:name="multiplier_map.mrp"/>
+      <outfile xil_pn:name="multiplier_map.ncd"/>
+      <outfile xil_pn:name="multiplier_map.ngm"/>
+      <outfile xil_pn:name="multiplier_map.xrpt"/>
+      <outfile xil_pn:name="multiplier_summary.xml"/>
+      <outfile xil_pn:name="multiplier_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1665431356" xil_pn:in_ck="5128196334235245274" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="6973808786348774276" xil_pn:start_ts="1665431343">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="multiplier.ncd"/>
+      <outfile xil_pn:name="multiplier.pad"/>
+      <outfile xil_pn:name="multiplier.par"/>
+      <outfile xil_pn:name="multiplier.ptwx"/>
+      <outfile xil_pn:name="multiplier.unroutes"/>
+      <outfile xil_pn:name="multiplier.xpi"/>
+      <outfile xil_pn:name="multiplier_pad.csv"/>
+      <outfile xil_pn:name="multiplier_pad.txt"/>
+      <outfile xil_pn:name="multiplier_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1665431361" xil_pn:in_ck="2297588858033985430" xil_pn:name="TRANEXT_bitFile_spartan3a" xil_pn:prop_ck="8242823369169169445" xil_pn:start_ts="1665431356">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="multiplier.bgn"/>
+      <outfile xil_pn:name="multiplier.bit"/>
+      <outfile xil_pn:name="multiplier.drc"/>
+      <outfile xil_pn:name="multiplier.ut"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1665431364" xil_pn:in_ck="2076895900863033908" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="3725548802311211136" xil_pn:start_ts="1665431361">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1665431256" xil_pn:in_ck="2297588858033985430" xil_pn:name="TRAN_XPower" xil_pn:prop_ck="-5727871551030652425" xil_pn:start_ts="1665431256">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:end_ts="1665431356" xil_pn:in_ck="6759891317283636489" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1665431353">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="multiplier.twr"/>
+      <outfile xil_pn:name="multiplier.twx"/>
+    </transform>
+    <transform xil_pn:end_ts="1644612367" xil_pn:in_ck="4033090934545411114" xil_pn:name="TRAN_createTimingConstraints" xil_pn:start_ts="1644612365">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+  </transforms>
+
+</generated_project>

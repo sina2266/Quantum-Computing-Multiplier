@@ -1,0 +1,18 @@
+Creating log file C:\Users\Sina\Desktop\Quantunm\multiplier_xpa.log.
+Loading device for application Rf_Device from file '3s700a.nph' in environment
+C:\Xilinx\14.7\ISE_DS\ISE\.
+   "multiplier" is an NCD, version 3.2, device xc3s700a, package fg484, speed -4
+
+INFO:Power:1693 - 
+   --------------------------------------------------------------
+                         The power estimate will be calculated using PRODUCTION
+   data.
+   --------------------------------------------------------------
+
+Design load 20% completeDesign load 25% completeDesign load 30% completeDesign load 60% completeDesign load 95% completeDesign load 100% completeRunning Vector-less Activity Propagation
+......
+Finished Running Vector-less Activity Propagation
+Finished Running Vector-less Activity Propagation 0 secs 
+
+Design 'multiplier.ncd' and constraints 'multiplier.pcf' opened successfully
+

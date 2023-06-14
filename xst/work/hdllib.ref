@@ -1,0 +1,16 @@
+EN ngate_tsg NULL C:/Users/user/Quantunm/ngate_tsg.vhd sub00/vhpl02 1642355350
+AR gate_mkg behavioral C:/Users/user/Quantunm/gate_mkg.vhd sub00/vhpl07 1642356881
+EN gate_hng NULL C:/Users/Sina/Desktop/Quantunm/gate_hng.vhd sub00/vhpl12 1665431144
+EN multiplier NULL C:/Users/Sina/Desktop/Quantunm/multiplier.vhd sub00/vhpl14 1665431146
+AR gate_peres behavioral C:/Users/Sina/Desktop/Quantunm/peres_gate.vhd sub00/vhpl11 1665431143
+AR ngate_tsg behavioral C:/Users/user/Quantunm/ngate_tsg.vhd sub00/vhpl03 1642355351
+EN gate_mtsg NULL C:/Users/user/Quantunm/gate_mtsg.vhd sub00/vhpl04 1642355794
+EN gate_bme NULL C:/Users/Sina/Desktop/Quantunm/gate_bme.vhd sub00/vhpl08 1665431140
+AR multiplier behavioral C:/Users/Sina/Desktop/Quantunm/multiplier.vhd sub00/vhpl15 1665431147
+EN ngate_mcl NULL C:/Users/user/Quantunm/ngate_mcl.vhd sub00/vhpl00 1642344246
+AR gate_bme behavioral C:/Users/Sina/Desktop/Quantunm/gate_bme.vhd sub00/vhpl09 1665431141
+AR ngate_mcl behavioral C:/Users/user/Quantunm/ngate_mcl.vhd sub00/vhpl01 1642344247
+AR gate_mtsg behavioral C:/Users/user/Quantunm/gate_mtsg.vhd sub00/vhpl05 1642355795
+EN gate_peres NULL C:/Users/Sina/Desktop/Quantunm/peres_gate.vhd sub00/vhpl10 1665431142
+EN gate_mkg NULL C:/Users/user/Quantunm/gate_mkg.vhd sub00/vhpl06 1642356880
+AR gate_hng behavioral C:/Users/Sina/Desktop/Quantunm/gate_hng.vhd sub00/vhpl13 1665431145

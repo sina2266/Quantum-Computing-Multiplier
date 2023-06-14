@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">69</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">P</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_bme</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">69</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">S</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_bme</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">70</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">P</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_bme</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">70</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">S</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_bme</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">71</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">P</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_bme</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">71</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">S</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_bme</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">72</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">P</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_bme</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">72</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">S</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_bme</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">73</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">P</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_bme</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">73</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">S</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_bme</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">74</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">P</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_bme</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">74</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">S</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_bme</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">75</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">P</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_bme</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">75</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">S</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_bme</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">76</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">P</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_bme</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">76</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">S</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_bme</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">79</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">P</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_peres</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">80</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">P</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_peres</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">84</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">P</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_hng</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">84</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_hng</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">85</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">P</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_hng</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">85</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_hng</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">86</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">P</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_hng</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">86</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_hng</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">87</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">P</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_hng</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">87</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_hng</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">88</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">P</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_hng</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">88</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_hng</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">89</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">P</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_hng</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">89</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_hng</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">90</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">P</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_hng</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">90</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_hng</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">91</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">P</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_hng</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Sina/Desktop/Quantunm/multiplier.vhd</arg>&quot; line <arg fmt="%d" index="2">91</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q</arg>&apos; of component &apos;<arg fmt="%s" index="4">gate_hng</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="1306" delta="old" >Output &lt;<arg fmt="%s" index="1">CARRY_OUT</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">S0</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+</messages>
+

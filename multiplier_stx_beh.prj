@@ -1,0 +1,4 @@
+vhdl isim_temp "peres_gate.vhd"
+vhdl isim_temp "gate_hng.vhd"
+vhdl isim_temp "gate_bme.vhd"
+vhdl isim_temp "multiplier.vhd"

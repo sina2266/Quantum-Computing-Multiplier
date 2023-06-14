@@ -1,0 +1,389 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: multiplier.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "multiplier.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "multiplier"
+Output Format                      : NGC
+Target Device                      : xc3s700a-4-fg484
+
+---- Source Options
+Top Module Name                    : multiplier
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Sina/Desktop/Quantunm/gate_bme.vhd" in Library work.
+Architecture behavioral of Entity gate_bme is up to date.
+Compiling vhdl file "C:/Users/Sina/Desktop/Quantunm/peres_gate.vhd" in Library work.
+Architecture behavioral of Entity gate_peres is up to date.
+Compiling vhdl file "C:/Users/Sina/Desktop/Quantunm/gate_hng.vhd" in Library work.
+Architecture behavioral of Entity gate_hng is up to date.
+Compiling vhdl file "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" in Library work.
+Entity <multiplier> compiled.
+Entity <multiplier> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <multiplier> in library <work> (architecture <behavioral>) with generics.
+	bitnumber = 4
+
+Analyzing hierarchy for entity <gate_bme> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <gate_peres> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <gate_hng> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <multiplier> in library <work> (Architecture <behavioral>).
+	bitnumber = 4
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 69: Unconnected output port 'P' of component 'gate_bme'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 69: Unconnected output port 'S' of component 'gate_bme'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 70: Unconnected output port 'P' of component 'gate_bme'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 70: Unconnected output port 'S' of component 'gate_bme'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 71: Unconnected output port 'P' of component 'gate_bme'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 71: Unconnected output port 'S' of component 'gate_bme'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 72: Unconnected output port 'P' of component 'gate_bme'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 72: Unconnected output port 'S' of component 'gate_bme'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 73: Unconnected output port 'P' of component 'gate_bme'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 73: Unconnected output port 'S' of component 'gate_bme'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 74: Unconnected output port 'P' of component 'gate_bme'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 74: Unconnected output port 'S' of component 'gate_bme'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 75: Unconnected output port 'P' of component 'gate_bme'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 75: Unconnected output port 'S' of component 'gate_bme'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 76: Unconnected output port 'P' of component 'gate_bme'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 76: Unconnected output port 'S' of component 'gate_bme'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 79: Unconnected output port 'P' of component 'gate_peres'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 80: Unconnected output port 'P' of component 'gate_peres'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 84: Unconnected output port 'P' of component 'gate_hng'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 84: Unconnected output port 'Q' of component 'gate_hng'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 85: Unconnected output port 'P' of component 'gate_hng'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 85: Unconnected output port 'Q' of component 'gate_hng'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 86: Unconnected output port 'P' of component 'gate_hng'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 86: Unconnected output port 'Q' of component 'gate_hng'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 87: Unconnected output port 'P' of component 'gate_hng'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 87: Unconnected output port 'Q' of component 'gate_hng'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 88: Unconnected output port 'P' of component 'gate_hng'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 88: Unconnected output port 'Q' of component 'gate_hng'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 89: Unconnected output port 'P' of component 'gate_hng'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 89: Unconnected output port 'Q' of component 'gate_hng'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 90: Unconnected output port 'P' of component 'gate_hng'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 90: Unconnected output port 'Q' of component 'gate_hng'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 91: Unconnected output port 'P' of component 'gate_hng'.
+WARNING:Xst:753 - "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd" line 91: Unconnected output port 'Q' of component 'gate_hng'.
+Entity <multiplier> analyzed. Unit <multiplier> generated.
+
+Analyzing Entity <gate_bme> in library <work> (Architecture <behavioral>).
+Entity <gate_bme> analyzed. Unit <gate_bme> generated.
+
+Analyzing Entity <gate_peres> in library <work> (Architecture <behavioral>).
+Entity <gate_peres> analyzed. Unit <gate_peres> generated.
+
+Analyzing Entity <gate_hng> in library <work> (Architecture <behavioral>).
+Entity <gate_hng> analyzed. Unit <gate_hng> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <gate_bme>.
+    Related source file is "C:/Users/Sina/Desktop/Quantunm/gate_bme.vhd".
+    Found 1-bit xor2 for signal <Q>.
+    Found 1-bit xor2 for signal <R>.
+    Found 1-bit xor3 for signal <S>.
+    Summary:
+	inferred   1 Xor(s).
+Unit <gate_bme> synthesized.
+
+
+Synthesizing Unit <gate_peres>.
+    Related source file is "C:/Users/Sina/Desktop/Quantunm/peres_gate.vhd".
+    Found 1-bit xor2 for signal <Q>.
+    Found 1-bit xor2 for signal <R>.
+Unit <gate_peres> synthesized.
+
+
+Synthesizing Unit <gate_hng>.
+    Related source file is "C:/Users/Sina/Desktop/Quantunm/gate_hng.vhd".
+    Found 1-bit xor2 for signal <R>.
+    Found 1-bit xor3 for signal <S>.
+    Found 1-bit xor2 for signal <S1>.
+    Summary:
+	inferred   1 Xor(s).
+Unit <gate_hng> synthesized.
+
+
+Synthesizing Unit <multiplier>.
+    Related source file is "C:/Users/Sina/Desktop/Quantunm/multiplier.vhd".
+WARNING:Xst:1306 - Output <CARRY_OUT> is never assigned.
+WARNING:Xst:1780 - Signal <S0> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <multiplier> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 52
+ 1-bit xor2                                            : 36
+ 1-bit xor3                                            : 16
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 52
+ 1-bit xor2                                            : 36
+ 1-bit xor3                                            : 16
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <multiplier> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block multiplier, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : multiplier.ngr
+Top Level Output File Name         : multiplier
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 17
+
+Cell Usage :
+# BELS                             : 53
+#      GND                         : 1
+#      LUT2                        : 2
+#      LUT3                        : 9
+#      LUT4                        : 33
+#      MUXF5                       : 6
+#      MUXF6                       : 1
+#      MUXF7                       : 1
+# IO Buffers                       : 16
+#      IBUF                        : 8
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s700afg484-4 
+
+ Number of Slices:                       26  out of   5888     0%  
+ Number of 4 input LUTs:                 44  out of  11776     0%  
+ Number of IOs:                          17
+ Number of bonded IOBs:                  16  out of    372     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 13.590ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 379 / 8
+-------------------------------------------------------------------------
+Delay:               13.590ns (Levels of Logic = 11)
+  Source:            A<0> (PAD)
+  Destination:       P<6> (PAD)
+
+  Data Path: A<0> to P<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   0.849   1.177  A_0_IBUF (A_0_IBUF)
+     LUT4:I0->O            1   0.648   0.000  HG4/Mxor_R_Result1 (HG4/Mxor_R_Result)
+     MUXF5:I1->O           1   0.276   0.000  HG4/Mxor_R_Result_f5 (HG4/Mxor_R_Result_f5)
+     MUXF6:I1->O           1   0.291   0.000  HG4/Mxor_R_Result_f6 (HG4/Mxor_R_Result_f6)
+     MUXF7:I1->O           3   0.291   0.674  HG4/Mxor_R_Result_f7 (S3)
+     LUT4:I0->O            1   0.648   0.423  HG7/Mxor_S_xo<0>70_SW0 (N53)
+     LUT4:I3->O            3   0.648   0.563  HG7/Mxor_S_xo<0>70 (HG7/Mxor_S_xo<0>70)
+     LUT3:I2->O            2   0.648   0.590  HG7/Mxor_S_xo<0>76 (C3)
+     LUT3:I0->O            1   0.648   0.000  PG2/Mxor_Q_Result_F (N61)
+     MUXF5:I0->O           1   0.276   0.420  PG2/Mxor_Q_Result (P_6_OBUF)
+     OBUF:I->O                 4.520          P_6_OBUF (P<6>)
+    ----------------------------------------
+    Total                     13.590ns (9.743ns logic, 3.847ns route)
+                                       (71.7% logic, 28.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.36 secs
+ 
+--> 
+
+Total memory usage is 4500372 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   36 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

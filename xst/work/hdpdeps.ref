@@ -1,0 +1,46 @@
+V3 31
+FL C:/Users/Sina/Desktop/Quantunm/gate_bme.vhd 2022/10/10.22:14:05 P.20131013
+EN work/gate_bme 1665431140 FL C:/Users/Sina/Desktop/Quantunm/gate_bme.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/gate_bme/Behavioral 1665431141 \
+      FL C:/Users/Sina/Desktop/Quantunm/gate_bme.vhd EN work/gate_bme 1665431140
+FL C:/Users/Sina/Desktop/Quantunm/gate_hng.vhd 2022/01/16.21:46:22 P.20131013
+EN work/gate_hng 1665431144 FL C:/Users/Sina/Desktop/Quantunm/gate_hng.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/gate_hng/Behavioral 1665431145 \
+      FL C:/Users/Sina/Desktop/Quantunm/gate_hng.vhd EN work/gate_hng 1665431144
+FL C:/Users/Sina/Desktop/Quantunm/multiplier.vhd 2022/10/10.23:15:23 P.20131013
+EN work/multiplier 1665431146 FL C:/Users/Sina/Desktop/Quantunm/multiplier.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/multiplier/Behavioral 1665431147 \
+      FL C:/Users/Sina/Desktop/Quantunm/multiplier.vhd EN work/multiplier 1665431146 \
+      CP gate_bme CP gate_peres CP gate_hng
+FL C:/Users/Sina/Desktop/Quantunm/peres_gate.vhd 2022/01/16.17:55:32 P.20131013
+EN work/gate_peres 1665431142 FL C:/Users/Sina/Desktop/Quantunm/peres_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/gate_peres/Behavioral 1665431143 \
+      FL C:/Users/Sina/Desktop/Quantunm/peres_gate.vhd EN work/gate_peres 1665431142
+FL C:/Users/user/Quantunm/gate_bme.vhd 2022/02/11.22:18:33 P.20131013
+FL C:/Users/user/Quantunm/gate_hng.vhd 2022/01/16.21:46:20 P.20131013
+FL C:/Users/user/Quantunm/gate_mkg.vhd 2022/01/16.21:44:26 P.20131013
+EN work/gate_mkg 1642356880 FL C:/Users/user/Quantunm/gate_mkg.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/gate_mkg/Behavioral 1642356881 \
+      FL C:/Users/user/Quantunm/gate_mkg.vhd EN work/gate_mkg 1642356880
+FL C:/Users/user/Quantunm/gate_mtsg.vhd 2022/01/16.21:26:28 P.20131013
+EN work/gate_mtsg 1642355794 FL C:/Users/user/Quantunm/gate_mtsg.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/gate_mtsg/Behavioral 1642355795 \
+      FL C:/Users/user/Quantunm/gate_mtsg.vhd EN work/gate_mtsg 1642355794
+FL C:/Users/user/Quantunm/multiplier.vhd 2022/02/12.00:09:31 P.20131013
+FL C:/Users/user/Quantunm/ngate_mcl.vhd 2022/01/16.18:13:50 P.20131013
+EN work/ngate_mcl 1642344246 FL C:/Users/user/Quantunm/ngate_mcl.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ngate_mcl/Behavioral 1642344247 \
+      FL C:/Users/user/Quantunm/ngate_mcl.vhd EN work/ngate_mcl 1642344246
+FL C:/Users/user/Quantunm/ngate_tsg.vhd 2022/01/16.21:19:05 P.20131013
+EN work/ngate_tsg 1642355350 FL C:/Users/user/Quantunm/ngate_tsg.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ngate_tsg/Behavioral 1642355351 \
+      FL C:/Users/user/Quantunm/ngate_tsg.vhd EN work/ngate_tsg 1642355350
+FL C:/Users/user/Quantunm/peres_gate.vhd 2022/01/16.17:55:30 P.20131013
